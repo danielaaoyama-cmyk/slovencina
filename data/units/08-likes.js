@@ -1,0 +1,75 @@
+// Unit 8 — Likes, love & interests
+(window.SK_UNITS = window.SK_UNITS || []).push({
+  id: "08-likes",
+  title: "Likes & interests",
+  icon: "❤️",
+  lessonDates: ["2026-07-08", "2026-07-20", "2026-07-27", "2026-09-01", "2026-10-16", "2026-10-19", "2026-10-22"],
+  items: [
+    ["Mám rada…", "I like… (woman)"],
+    ["Nemám rada…", "I don't like… (woman)"],
+    ["Máš rada…?", "Do you like…? (to a woman)"],
+    ["Čo máš rada?", "What do you like?"],
+    ["Čo rada robíš?", "What do you like doing?"],
+    ["Máš rada svoju prácu?", "Do you like your work?"],
+    ["Mám rada cestoviny a cestovanie.", "I like pasta and travelling."],
+    ["Rada sa prechádzam so psom. | Mám rada prechádzky so psom.", "I like walking with the dog."],
+    ["Mám rada všetko, čo je sladké.", "I like everything that's sweet."],
+    ["Rada jem dobré jedlo.", "I like eating good food."],
+    ["Nerada upratujem.", "I don't like cleaning. (woman)"],
+    ["Nemám rada hororové filmy. | Nerada pozerám hororové filmy.", "I don't like horror films."],
+    ["Nemám rada zlých ľudí.", "I don't like bad people."],
+    ["Peter má rád hudbu.", "Peter likes music."],
+    ["páčiť sa", "to like (lit. to be pleasing)"],
+    ["Páči sa mi Peter.", "I like Peter."],
+    ["Veľmi sa mi páči.", "I like it very much."],
+    ["Ako sa ti páči na Slovensku?", "How do you like it in Slovakia?"],
+    ["Ako sa páči mamke v Bratislave?", "How does your mom like Bratislava?"],
+    ["Mamke sa páči Bratislava.", "Mom likes Bratislava."],
+    ["Mamka miluje Bratislavu.", "Mom loves Bratislava."],
+    ["milovať | ľúbiť", "to love"],
+    ["Ľúbim ťa. | Milujem ťa.", "I love you."],
+    ["láska na prvý pohľad", "love at first sight"],
+    ["Chutí ti jedlo?", "Do you like the food? (taste)"],
+    ["Ďakujem, chutí mi.", "Thank you, I'm enjoying it. (the food)"],
+    ["zaujímať sa o", "to be interested in"],
+    ["Zaujímam sa o hudbu.", "I'm interested in music."],
+    ["O čo sa zaujímaš?", "What are you interested in?"],
+    ["Zaujímam sa o správanie zvierat.", "I'm interested in animal behaviour."],
+    ["záujmy", "interests, hobbies"],
+    ["hudba", "music"],
+    ["zvieratá", "animals"],
+    ["turistika", "hiking"],
+    ["plávať", "to swim"],
+    ["plávanie", "swimming"],
+    ["cvičiť", "to exercise"],
+    ["cvičenie", "exercise, workout"],
+    ["cestovanie", "travelling"],
+    ["nakupovať", "to go shopping"],
+    ["nakupovanie", "shopping"],
+    ["Máš rada nakupovanie?", "Do you like shopping?"],
+    ["Nechodím nakupovať, nakupujem online.", "I don't go shopping, I shop online."],
+    ["hrať", "to play"],
+    ["pozerať televíziu | pozerať telku | pozerať TV", "to watch TV"],
+    ["preteky", "races (e.g. F1)"]
+  ],
+  grammar: [
+    {
+      id: "rad-rada-radi", title: "rád / rada / radi",
+      note: "The word changes with who likes it: Peter má rád… · Dani má rada… · My máme radi…",
+      rows: [["he / a man", "rád"], ["she / a woman", "rada"], ["we / they (plural)", "radi"]]
+    },
+    {
+      id: "pacit-sa", title: "páči sa — \"it pleases me\"",
+      note: "Páči sa mi = I like it · Páči sa ti? = Do you like it? · Mamke sa páči = Mom likes it",
+      rows: [["I like it", "páči sa mi"], ["you like it", "páči sa ti"], ["I like it very much", "veľmi sa mi páči"]]
+    }
+  ],
+  dialogues: [
+    { q: "Čo rada robíš?", en: "What do you like doing?", a: ["Rada cestujem.", "Rada plávam.", "Rada sa prechádzam so psom."] },
+    { q: "Ako sa ti páči na Slovensku?", en: "How do you like it in Slovakia?", a: ["Veľmi sa mi páči.", "Páči sa mi príroda a jedlo."] },
+    { q: "Chutí ti jedlo?", en: "Do you like the food?", a: ["Ďakujem, chutí mi.", "Ďakujem, je to veľmi dobré."] },
+    { q: "O čo sa zaujímaš?", en: "What are you interested in?", a: ["Zaujímam sa o hudbu.", "Zaujímam sa o správanie zvierat."] },
+    { q: "Máš rada nakupovanie?", en: "Do you like shopping?", a: ["Kedy ako. Nakupujem online.", "Niekedy."] },
+    { q: "Máš rada svoju prácu?", en: "Do you like your work?", a: ["Áno, mám rada svoju prácu.", "Kedy ako."] }
+  ]
+});

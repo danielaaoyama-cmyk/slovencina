@@ -1,0 +1,5 @@
+# Private: never publish the WhatsApp chat export or local tool settings
+*.zip
+chat.md
+chat.txt
+.claude/

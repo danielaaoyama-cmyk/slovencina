@@ -1,0 +1,50 @@
+// Unit 1 — Greetings & polite phrases
+// Item format: [slovak, english, optional note]. Use " | " in the Slovak to list other accepted answers (first one is shown).
+(window.SK_UNITS = window.SK_UNITS || []).push({
+  id: "01-greetings",
+  title: "Greetings & polite phrases",
+  icon: "👋",
+  lessonDates: ["2026-06-18", "2026-07-07", "2026-08-03", "2026-09-01", "2026-09-03"],
+  items: [
+    ["Dobré ráno.", "Good morning."],
+    ["Dobrý deň.", "Hello. / Good day. (polite)"],
+    ["Dobrú noc.", "Good night."],
+    ["Ahoj!", "Hi! / Bye! (informal)"],
+    ["Ako sa máš?", "How are you?"],
+    ["Mám sa dobre.", "I'm doing well."],
+    ["A ty?", "And you?"],
+    ["Ja sa nemám veľmi dobre.", "I'm not doing very well."],
+    ["Ďakujem.", "Thank you."],
+    ["Ďakujem veľmi pekne.", "Thank you very much."],
+    ["Nemáš za čo.", "You're welcome."],
+    ["Nech sa páči.", "Here you are."],
+    ["Prosím.", "Please."],
+    ["Nerozumiem.", "I don't understand."],
+    ["Prepáčte, ale nerozumiem.", "Sorry, but I don't understand."],
+    ["Prosím vás, môžete hovoriť pomaly?", "Could you speak slowly, please?"],
+    ["Teší ma.", "Nice to meet you."],
+    ["Rada ťa spoznávam.", "Nice to meet you. (said by a woman)"],
+    ["Som rada, že som ťa spoznala. | Som rada, že som ťa poznala.", "It was nice to meet you. (said by a woman)"],
+    ["Ahoj, ja som Dani.", "Hi, I'm Dani."],
+    ["Toto je Peter.", "This is Peter."],
+    ["To je pekné meno.", "That's a nice name."],
+    ["Maj sa pekne.", "Take care. / Have a good one."],
+    ["Pekný deň!", "Have a nice day!"],
+    ["Želám ti pekný deň. | Prajem ti pekný deň.", "I wish you a nice day."],
+    ["Pekný deň aj tebe.", "A nice day to you too."],
+    ["Pozdravuj Petra.", "Say hi to Peter."],
+    ["Uvidíme sa zajtra.", "See you tomorrow."],
+    ["Uvidíme sa vo štvrtok.", "See you on Thursday."],
+    ["Pripravená?", "Ready? (to a woman)"],
+    ["Áno, som pripravená.", "Yes, I'm ready. (woman)"],
+    ["áno", "yes"],
+    ["nie", "no"],
+    ["Rada to počujem.", "I'm glad to hear that. (woman)"]
+  ],
+  dialogues: [
+    { q: "Ako sa máš?", en: "How are you?", a: ["Mám sa dobre, a ty?", "Mám sa dobre.", "Ja sa nemám veľmi dobre."] },
+    { q: "Pripravená?", en: "Ready?", a: ["Áno, som pripravená."] },
+    { q: "Ďakujem veľmi pekne.", en: "Thank you very much.", a: ["Nemáš za čo."] },
+    { q: "Želám ti pekný deň.", en: "I wish you a nice day.", a: ["Pekný deň aj tebe."] }
+  ]
+});
