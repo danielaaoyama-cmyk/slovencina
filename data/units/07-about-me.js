@@ -2,7 +2,7 @@
 (window.SK_UNITS = window.SK_UNITS || []).push({
   id: "07-about-me",
   title: "About me",
-  icon: "🙋‍♀️",
+  icon: "🙋",
   lessonDates: ["2026-07-07", "2026-07-23", "2026-08-10", "2026-08-25", "2026-10-12", "2026-10-19"],
   items: [
     ["Odkiaľ si?", "Where are you from?"],

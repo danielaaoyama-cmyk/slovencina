@@ -3,3 +3,6 @@
 chat.md
 chat.txt
 .claude/
+
+# Generated printable workbook (rebuild with: node tools/workbook.js)
+workbook/

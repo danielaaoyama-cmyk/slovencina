@@ -2,7 +2,7 @@
 (window.SK_UNITS = window.SK_UNITS || []).push({
   id: "02-family",
   title: "Family & people",
-  icon: "👨‍👩‍👧",
+  icon: "👪",
   lessonDates: ["2026-06-25", "2026-07-07", "2026-08-06", "2026-09-10", "2026-10-12"],
   items: [
     ["rodina", "family"],

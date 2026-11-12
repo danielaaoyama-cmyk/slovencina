@@ -2,7 +2,7 @@
 (window.SK_UNITS = window.SK_UNITS || []).push({
   id: "14-verbs-present",
   title: "Verbs: present tense",
-  icon: "🏃‍♀️",
+  icon: "🏃",
   lessonDates: ["2026-07-20", "2026-08-14", "2026-09-10", "2026-10-16", "2026-10-19", "2026-10-22", "2026-10-27"],
   items: [
     ["byť", "to be"],
